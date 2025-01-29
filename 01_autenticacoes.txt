@@ -1,0 +1,20 @@
+Autenticações
+
+
+- O GitHub presa pela segurança em seus processos e para garantir esta e a integridade, ele oferece
+
+1) Nome e Senha, Token e SSH
+
+
+- O primeiro tipo de autenticação: nome de usuário e senha
+	Não é mais considerada uma forma de autenticação segura
+
+
+- O segundo tipo de autenticação: tokens de acesso pessoal
+	Personal Acess Token (PAT)
+	Ao invés de utilizar somente login e senha, incluir a chave para validar o acesso
+
+
+- O terceiro tipo de autenticação: chave SSH
+	senhas especiais que permitem autenticação
+	ficam salvas localmente na pasta ssh

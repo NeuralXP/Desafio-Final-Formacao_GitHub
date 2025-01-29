@@ -1,0 +1,21 @@
+1) Chaves de Implementação
+
+
+- Chaves especiais para permissão de acesso em locais específicos como repositórios um squad de uma equipe que está construindo um software 
+- Chaves de implementação dão somente acesso a leitura
+
+
+2) Autenticação de 2 Fatores
+
+- Camada extra de segurança
+- Geração de um token para ser inserido no login após inserir usuário e senha
+
+
+3) SSO do SAML
+
+- Controlar recursos empresariais de forma organizada
+
+
+4) LDPA
+
+- Protocolo utilizado para o controle de acessos corporativos

@@ -1,0 +1,62 @@
+O que é o Git e o GitHub?
+
+1) O Git
+
+
+- O git é um sistema de controle de versão distribuído
+	Cópias do código fonte localmente na nossa máquina
+- manter um histórico de alterações do código, facilitando a colaboração em equipe e o gerenciamento do projeto
+- cada contribuição é registrada como um commit que contem uma descrição da alteração e uma referência única (chave hash)
+
+
+2) O GitHub
+
+- é uma plataforma online (na nuvem) que serve como uma plataforma que armazena todos os códigos fontes, facilitando a colaboração entre desenvolvedores e aumentando a segurança dos projetos
+- plataforma de hospedagem de códigos que utiliza o Git
+
+
+3) Como eles se relacionam
+
+
+- O git traz consigo um sistema que permite alterar, gerenciar as versões de código por uma linha de comando
+- O GitHub vem como uma plataforma online para comportar diversos projetos em um único lugar
+- Repositórios são como pastas para armazenar tudo relacionado aos projetos
+- Ramificações do código: Branch
+- Hospedagem de repositórios
+	o Git é o sistema que rastreia as alterações e gerencia o controle de versão localmente
+	o GitHub é um serviço que hospeda repositórios Git remotamente, permitindo que seja possível realizar o armazenamento e compartilhamento na nuvem
+
+
+4) Comandos do Git
+
+- git config --global user.name "_____"  # registra o nome do usuário
+- git config --global user.email "_____" # registra o email do usuário
+- git config --list  # apresenta uma lista com as credenciais registradas no sistema entre outras informações
+- git --version    # apresenta qual a versão atual instalada no computador
+- git init   # inicia um novo repositório no diretório atual
+- git clone [url]   # clona o repositório existente para o diretório local
+- git add   # adiciona alterações ao índice (stagging área) para prepara-las para o commit
+- git commit -m 'message'   # realiza um commit com alterações adicionadas, incluindo uma mensagem que descreve as mudanças feitas
+- git status     # exibe o status atual do repositório, indicando quais arquivos foram modificados, adicionados ou removidos
+- git log    # mostra o histórico de commits do repositório
+- git branch    # lista todas as branchs locais e destaca a branch atual
+- gir branch [nome-da-branch]    # cria uma nova branch
+- git checkout [nome-da-branch]    # altera para uma branch específica
+- git merge [branch]     # combina as alterações de uma branch especifica para a branch atual
+- git pull     # atualiza o repositório local com as alterações do repositório remoto
+- git push [remote] [branch]     # envia os commits locais para o repositório remoto
+- git remote -v     # lista os repositórios remotos configurados
+- git fetch      # recupera as ultimas alterações do repositório remoto, mas não faz merge automaticamente
+- git reset [arquivo]      # desfaz as alterações no arquivo especificado
+- git rm [arquivo]     # remove um arquivo do repositório e o inclui no próximo commit
+- git diff     # mostra as diferenças entre as alterações que ainda não foram adicionadas ao índice
+- git remote add [nome-remoto][URL]     # adiciona um repositório remoto com um nome específico
+- git push add origin main     # executado para efetuar um push das alterações locais para o repositório online
+
+
+
+
+
+
+
+

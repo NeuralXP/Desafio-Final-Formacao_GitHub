@@ -1,0 +1,6 @@
+Chave Privada deve ser protegida
+Após o erro de commit em uma outra conta, foi orientado a criação das chaves SSH (pub e priv)
+	Sendo necessário abrir o git bash dentro da pasta que elas se encontram
+	Com o git remote set-url origin é possível editar e escolher qual a URL se deseja usar (HTTPS ou SSH)
+	Para criar a chave ssh é necessário utilizar o ssh-keygen
+	Uma vez com a chave criada é so atribuir ao git remote e realizar o restante do procedimento (add ., commit -m e push)
